@@ -17,7 +17,8 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#191a23]">
       
-      <div className="container mx-auto px-4 py-2 flex justify-between items-center text-sm md:text-base">
+      <div className="fixed top-0 left-0 w-full bg-gray-900 text-white text-sm md:text-base py-2 z-50">
+        <div className="container mx-auto px-4 flex justify-between items-center">
           <div>Beyond catering and decor. Catering with love</div>
           <div className="hidden md:flex items-center gap-6">
             <a href="tel:+4917636378888" className="hover:text-[#cdab6e] transition-colors">
@@ -28,6 +29,7 @@ export default function Home() {
             </a>
           </div>
         </div>
+      </div>
 
 
       {/* Header */}

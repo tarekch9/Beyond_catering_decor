@@ -1,21 +1,24 @@
 "use client";
 
-import Image from "next/image"
-import { Instagram, Linkedin } from "lucide-react"
-import BrandTiktok from "@/components/brand-tiktok"
+import Image from "next/image";
+import { Instagram, Linkedin } from "lucide-react";
+import BrandTiktok from "@/components/brand-tiktok";
 import { useState, useEffect } from "react";
 
 export default function Header() {
   const [isVisible, setIsVisible] = useState(true);
+  const [isContactVisible, setIsContactVisible] = useState(true);
 
   useEffect(() => {
     let lastScrollY = window.scrollY;
 
     const handleScroll = () => {
       if (window.scrollY > lastScrollY) {
-        setIsVisible(false); // Hide when scrolling down
+        setIsContactVisible(false); // Hide contact bar when scrolling down
+        setIsVisible(false); // Also fade the navbar slightly
       } else {
-        setIsVisible(true); // Show when scrolling up
+        setIsContactVisible(true); // Show contact bar when scrolling up
+        setIsVisible(true);
       }
       lastScrollY = window.scrollY;
     };
@@ -25,15 +28,34 @@ export default function Header() {
   }, []);
 
   return (
-       
-    <header
-      className={`fixed top-0 left-0 w-full bg-black text-white p-4 shadow-md z-50 transition-opacity duration-500 ${
-        isVisible ? "opacity-100" : "opacity-40"
-      }`}
-      onMouseEnter={() => setIsVisible(true)}
-      onMouseLeave={() => setIsVisible(false)}
-    >
-<div className="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
+    <>
+      {/* Contact Info Bar (Disappears on scroll down) */}
+      <div
+        className={`bg-black text-white text-sm md:text-base py-2 w-full fixed top-0 left-0 z-50 transition-all duration-300
+        }`}
+      >
+        <div className="container mx-auto px-4 flex justify-between items-center">
+          <div>Beyond catering and decor. Catering with love</div>
+          <div className="hidden md:flex items-center gap-6">
+            <a href="tel:+4917636378888" className="transition-colors">
+              +49 176 36378888
+            </a>
+            <a href="mailto:beyond_catering@gmail.com" className="transition-colors">
+              beyond_catering@gmail.com
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Main Header (Stays but fades slightly when scrolling) */}
+      <header
+        className={`fixed top-[40px] left-0 w-full bg-black text-white p-4 shadow-md z-40 transition-opacity duration-500 ${
+          isVisible ? "opacity-100" : "opacity-40"
+        }`}
+        onMouseEnter={() => setIsVisible(true)}
+        onMouseLeave={() => setIsVisible(false)}
+      >
+        <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
           {/* Logo */}
           <div className="mb-4 md:mb-0">
             <Image
@@ -84,6 +106,10 @@ export default function Header() {
             </a>
           </div>
         </div>
-    </header>
+      </header>
+
+      {/* Push content down to prevent it from being covered */}
+      <div className="pt-[90px]" />
+    </>
   );
 }
