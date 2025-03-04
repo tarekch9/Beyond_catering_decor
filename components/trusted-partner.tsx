@@ -37,7 +37,7 @@ export default function TrustedPartner() {
           </div>
 
           {/* Right side - Image */}
-          <div className="rounded-3xl overflow-hidden">
+          <div className="rounded-2xl overflow-hidden border border-[#cdab6e] border-3">
           <video
             src="/video/your_trusted_partner.mp4" // Pfad zum Video im public-Verzeichnis
             width={616} // Breite des Videos
@@ -45,8 +45,8 @@ export default function TrustedPartner() {
             autoPlay // Video automatisch abspielen
             muted // Video stumm schalten
             loop // Video in einer Endlosschleife abspielen
-            className="rounded-3xl"
-            style={{ objectFit: "contain" }}
+            className="rounded-2xl"
+            style={{ width: "700px", height: "800px", objectFit: "cover" }}
           >
             Your browser does not support the video tag.
           </video>

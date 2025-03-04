@@ -8,14 +8,14 @@ export default function WorkplaceDining() {
       <div className="container mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left side - Image */}
-          <div className="rounded-3xl overflow-hidden">
+          <div className="rounded-2xl overflow-hidden border border-[#cdab6e] border-3">
             <Image
               src={myImage}
               alt="Charcuterie board with various meats, cheeses, fruits and crackers"
-              width={616}
+              width={700}
               height={500}
               layout="fixed"
-              className="rounded-3xl"
+              className="rounded-2xl"
               //className="w-full h-auto object-cover rounded-3xl"
             />
           </div>
@@ -49,7 +49,7 @@ export default function WorkplaceDining() {
             <div className="flex flex-wrap gap-4">
               <a
                 href="#"
-                className="border border-[#cdab6e] text-[#cdab6e] px-6 py-3 rounded-md hover:bg-[#cdab6e] hover:text-black transition-colors duration-300"
+                className="border border-[#cdab6e] text-[#cdab6e] px-6 py-3 rounded-md hover:bg-[#94794a] hover:text-black transition-colors duration-300"
               >
                 Our Services
               </a>

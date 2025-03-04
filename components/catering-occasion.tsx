@@ -2,7 +2,7 @@ import { ShoppingBasket, Building2, SmilePlus } from "lucide-react"
 
 export default function Home() {
   return (
-    <section className="bg-[#191a23] text-white py-36 px-4">
+    <section className="bg-[#191a23] text-white py-36 px-4 border-t border-[#555555]">
       <div className="container mx-auto max-w-6xl">
         {/* Hero Section */}
         <div className="text-center mb-24">
