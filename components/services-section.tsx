@@ -2,7 +2,7 @@ import { Check, MessageSquare, SmilePlus } from "lucide-react"
 
 export default function ServicesSection() {
   return (
-    <section className="py-20 px-4 bg-[#191a23] text-[#cdab6e]">
+    <section className="py-36 px-4 bg-[#191a23] text-[#cdab6e]">
       <div className="container mx-auto">
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-center mb-16 max-w-5xl mx-auto leading-tight">
           Explore Our Exceptional Catering Services Tailored For Every Occasion

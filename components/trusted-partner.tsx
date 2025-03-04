@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function TrustedPartner() {
   return (
-    <section className="py-20 px-4 bg-[#191a23] text-[#cdab6e]">
+    <section className="py-36 px-4 bg-[#191a23] text-[#cdab6e]">
       <div className="container mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left side - Content */}

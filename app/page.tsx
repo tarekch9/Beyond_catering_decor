@@ -2,11 +2,15 @@ import Image from "next/image"
 import { Instagram, Linkedin } from "lucide-react"
 import BrandTiktok from "@/components/brand-tiktok"
 import ServicesSection from "@/components/services-section"
+import WeStandFor from "@/components/we-stand-for"
 import WorkplaceDining from "@/components/workplace-dining"
-import SpecialtiesGrid from "@/components/specialties-grid"
+import SpecialtiesGrid1 from "@/components/specialties-grid-1"
+import SpecialtiesGrid2 from "@/components/specialties-grid-2"
+import SpecialtiesGrid3 from "@/components/specialties-grid-3"
 import TrustedPartner from "@/components/trusted-partner"
 import CateringOccasion from "@/components/catering-occasion"
 import Footer from "@/components/footer"
+
 
 export default function Home() {
   return (
@@ -33,7 +37,7 @@ export default function Home() {
             <Image
               src="/images/Logo-black.jpeg"
               alt="Beyond Catering & Decor"
-              width={150}
+              width={160}
               height={70}
               className="object-contain"
             />
@@ -81,32 +85,7 @@ export default function Home() {
       </div>
 
       {/* What We Stand For Section */}
-      <section className="py-20 px-4">
-        <div className="max-w-5xl mx-auto bg-black rounded-3xl p-16">
-          <h2 className="text-[#cdab6e] text-5xl md:text-6xl font-serif text-center mb-10">What We Stand For</h2>
-
-          <div className="text-[#cdab6e] text-center space-y-8 max-w-3xl mx-auto">
-            <p className="text-lg md:text-xl">
-              We believe great food and service are the foundation of our successful long-term client partnerships.
-              Providing creative hospitality solutions is born from our mantra to "care more."
-            </p>
-
-            <p className="text-lg md:text-xl">
-              Sustainability is in our DNA., we practice what we preach. We will continually strive to be eco-conscious
-              in everything we do.
-            </p>
-          </div>
-
-          <div className="flex justify-center mt-12">
-            <a
-              href="#contact"
-              className="border border-[#cdab6e] text-[#cdab6e] px-8 py-3 rounded-md hover:bg-[#cdab6e] hover:text-black transition-colors duration-300"
-            >
-              Contact Us
-            </a>
-          </div>
-        </div>
-      </section>
+      <WeStandFor />
 
       {/* Services Section */}
       <ServicesSection />
@@ -118,7 +97,11 @@ export default function Home() {
       <TrustedPartner />
 
       {/* Specialties Grid */}
-      <SpecialtiesGrid />
+      <SpecialtiesGrid1 />
+
+      <SpecialtiesGrid2 />
+
+      <SpecialtiesGrid3 />
 
       {/* Catering Occasion */}
       <CateringOccasion />

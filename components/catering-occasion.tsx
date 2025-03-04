@@ -2,7 +2,7 @@ import { ShoppingBasket, Building2, SmilePlus } from "lucide-react"
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#191a23] text-white py-20 px-4">
+    <section className="bg-[#191a23] text-white py-36 px-4">
       <div className="container mx-auto max-w-6xl">
         {/* Hero Section */}
         <div className="text-center mb-24">
@@ -51,7 +51,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </main>
+    </section>
   )
 }
 
