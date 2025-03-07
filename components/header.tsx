@@ -57,7 +57,7 @@ export default function Header() {
         onMouseEnter={() => setIsVisible(true)}
         onMouseLeave={() => setIsVisible(false)}
       >
-        <hr className="my-4 border-t-1 border-gray-300 md:border-t-1 md:border-gray-500" />
+        <hr className="mx-8 mt-4 border-t-1 border-gray-300 md:border-t-1 md:border-gray-500" />
         <div className="container mx-auto px-16 py-2 flex flex-col md:flex-row justify-between items-center">
           {/* Logo */}
           <div className="mb-4 md:mb-0">
