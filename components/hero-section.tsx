@@ -8,38 +8,74 @@ import { Button } from "@/components/ui/button"
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <div className="relative h-screen w-full h-[2000px]">
-        {/* Hero Background Image */}
-        <div className="absolute inset-0 z-0">
-          <Image
-            src={hero}
-            alt="Elegant catering display with champagne and appetizers"
-            fill
-            priority
-            className="object-cover"
-          />
-          <div className="absolute inset-0 bg-black/30" />
+       <div class="relative py-18 bg-gray-900 sm:py-16 lg:py-20 xl:pt-32 xl:pb-44">
+        <div class="absolute inset-0 hidden lg:block">
+            <img class="object-cover object-right-bottom w-full h-full" src="/images/hero-banner.jpeg" alt="" />
         </div>
 
-        {/* Content Overlay */}
-        <div className="relative z-10  flex h-full flex-col items-start justify-end p-8 md:p-16 lg:p-24">
-          <div className="max-w-2xl bg-[#8C6E1C] opacity-75 rounded-3xl max-w-5xl p-16">
-            <h1 className="font-serif text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">
-              BEYOND CATERING & DECOR
-            </h1>
-            <p className="mt-4 text-lg text-white md:text-xl lg:text-2xl">
-              From conferences to corporate events, private parties to galas, when it matters most, we're the partner
-              you can trust to get it right.
-            </p>
-            <div className="mt-8 flex flex-wrap gap-4">
-              <Button className="bg-[#cdab6e] text-black hover:bg-[#8c6e1c] hover:text-white">Our Services</Button>
-              <Button variant="outline" className="border-[#cdab6e] text-white hover:bg-[#cdab6e] hover:text-black">
-                Contact Us
-              </Button>
+        <div class="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+            <div class="max-w-xl mx-auto text-center lg:max-w-md xl:max-w-lg lg:text-left lg:mx-0">
+                <h1 class="text-3xl font-bold text-white sm:text-4xl xl:text-5xl xl:leading-tight">Build SaaS Landing Page without Writing a Single Code</h1>
+                <p class="mt-8 text-base font-normal leading-7 text-gray-400 lg:max-w-md xl:pr-0 lg:pr-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nunc nisl eu consectetur. Mi massa elementum odio eu viverra amet.</p>
+
+                <div class="flex items-center justify-center mt-8 space-x-5 xl:mt-16 lg:justify-start">
+                    <a
+                        href="#"
+                        title=""
+                        class="
+                            inline-flex
+                            items-center
+                            justify-center
+                            px-3
+                            py-3
+                            text-base
+                            font-bold
+                            leading-7
+                            text-gray-900
+                            transition-all
+                            duration-200
+                            bg-white
+                            border border-transparent
+                            rounded-md
+                            sm:px-6
+                            focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-white
+                            hover:bg-gray-200
+                        "
+                        role="button"
+                    >
+                        Get UI Kit Now
+                    </a>
+
+                    <a
+                        href="#"
+                        title=""
+                        class="
+                            inline-flex
+                            items-center
+                            justify-center
+                            px-2
+                            py-3
+                            text-base
+                            font-bold
+                            leading-7
+                            text-white
+                            transition-all
+                            duration-200
+                            bg-transparent
+                            border border-transparent
+                            rounded-md
+                            sm:px-4
+                            focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-gray-700
+                            hover:bg-gray-700
+                        "
+                        role="button"
+                    >
+                        Check live preview
+                    </a>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
     </main>
   )
 }
