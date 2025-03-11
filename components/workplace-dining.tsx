@@ -26,12 +26,12 @@ export default function WorkplaceDining() {
               Elevate Your Workplace Dining Experience Today
             </h2>
 
-            <p className="mb-8 text-[#cdab6e]/80">
+            <p className="mb-6 text-[#f2f1f0]/90 font-extralight">
               Transform your workplace with our tailored food service programs that prioritize health and variety.
               Delight your employees with fresh, delicious meals that cater to diverse tastes and dietary needs.
             </p>
 
-            <ul className="space-y-4 mb-10">
+            <ul className="space-y-4 mb-8">
               <li className="flex items-start gap-3">
                 <Check className="mt-1 flex-shrink-0" />
                 <span>Customized menus to suit every employee's preferences.</span>

@@ -2,9 +2,9 @@ import { Check, MessageSquare, SmilePlus } from "lucide-react"
 
 export default function ServicesSection() {
   return (
-    <section className="py-24 px-4 bg-[#191a23] text-[#cdab6e] border-t border-[#555555] ">
+    <section className="py-20 px-4 bg-[#191a23] text-[#cdab6e] border-t border-[#555555] ">
       <div className="container mx-auto">
-        <h2 className="text-2xl md:text-3xl lg:text-6xl font-serif text-center mb-16 max-w-5xl mx-auto leading-tight">
+        <h2 className="text-2xl md:text-2xl lg:text-5xl font-serif text-center mb-16 max-w-5xl mx-auto leading-tight">
           Explore Our Exceptional Catering Services Tailored For Every Occasion
         </h2>
 
@@ -14,11 +14,11 @@ export default function ServicesSection() {
             <div className="w-16 h-16 mb-6 flex items-center justify-center text-white">
               <Check className="w-12 h-12" />
             </div>
-            <h3 className="text-l md:text-xl font-serif mb-6">
+            <h3 className="text-l md:text-xl font-serif mb-4">
               Delicious Offerings to Elevate Your Events and Gatherings
             </h3>
-            <p className="mb-2 md:text-sm text-white">From breakfast buffets to fine dining, we cater to all your needs.</p>
-            <a href="#" className="text-[#cdab6e] hover:underline mt-auto">
+            <p className="mb-3 md:text-xs text-white font-light">From breakfast buffets to fine dining, we cater to all your needs.</p>
+            <a href="#" className="text-[#cdab6e] text-sm hover:underline mt-auto">
               Your Trusted Partner
             </a>
           </div>
@@ -28,11 +28,11 @@ export default function ServicesSection() {
             <div className="w-16 h-16 mb-6 flex items-center justify-center text-white">
               <MessageSquare className="w-12 h-12" />
             </div>
-            <h3 className="text-l md:text-xl font-serif mb-6">Indulge in Our Variety of Sweet and Savory Treats</h3>
-            <p className="mb-2 md:text-sm text-white">
+            <h3 className="text-l md:text-xl font-serif mb-4">Indulge in Our Variety of Sweet and Savory Treats</h3>
+            <p className="mb-3 md:text-xs text-white font-light">
               Satisfy your cravings with our delightful candy bars and fruit platters.
             </p>
-            <a href="#" className="text-[#cdab6e] hover:underline mt-auto">
+            <a href="#" className="text-[#cdab6e] hover:underline mt-auto text-sm">
               Our Services
             </a>
           </div>
@@ -42,13 +42,13 @@ export default function ServicesSection() {
             <div className="w-16 h-16 mb-6 flex items-center justify-center text-white">
               <SmilePlus className="w-12 h-12" />
             </div>
-            <h3 className="text-l md:text-xl font-serif mb-6">
+            <h3 className="text-l md:text-xl font-serif mb-4">
               Experience the Art of Charcuterie with Our Exquisite Boards
             </h3>
-            <p className="mb-2 md:text-sm text-white">
+            <p className="mb-3 md:text-xs text-white font-light">
               Our charcuterie boards are perfect for impressing guests at any event.
             </p>
-            <a href="#" className="text-[#cdab6e] hover:underline mt-auto">
+            <a href="#" className="text-[#cdab6e] hover:underline mt-auto text-sm">
               Contact Us
             </a>
           </div>

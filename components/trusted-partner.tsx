@@ -9,27 +9,27 @@ export default function TrustedPartner() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left side - Content */}
           <div>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif mb-8 leading-tight">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif mb-3 leading-tight">
               Your Trusted Partner for Memorable Catered Events and Celebrations
             </h2>
 
-            <p className="mb-10 text-[#cdab6e]/80">
+            <p className="mb-6 text-[#f2f1f0]/90 font-thin">
               Whether it's a corporate conference or a private gala, we ensure every detail is perfect. Count on us to
               deliver exceptional food and service that leaves a lasting impression.
             </p>
 
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-xl font-serif mb-4">Where every event becomes a masterpiece</h3>
-                <p className="text-[#cdab6e]/80">
+                <h3 className="text-xl font-serif mb-2">Where every event becomes a masterpiece</h3>
+                <p className="text-[#f2f1f0]/90 font-thin">
                   Every event is a work of art, crafted with precision, creativity, and exceptional service to leave a
                   lasting impression
                 </p>
               </div>
 
               <div>
-                <h3 className="text-xl font-serif mb-4">Seamless service, spectacular flavors</h3>
-                <p className="text-[#cdab6e]/80">
+                <h3 className="text-xl font-serif mb-2">Seamless service, spectacular flavors</h3>
+                <p className="text-[#f2f1f0]/90 font-thin">
                   Flawless hospitality and exquisite cuisine come together for an unforgettable experience
                 </p>
               </div>
