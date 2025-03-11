@@ -37,10 +37,10 @@ export default function Header() {
         <div className="font-sans font-thin text-xs container mx-auto px-20 flex justify-between items-center">
           <div>Beyond catering and decor. Catering with love</div>
           <div className="hidden md:flex items-center gap-6">
-            <a href="tel:+4917636378888" className="transition-colors">
+            <a href="tel:+4917636378888" className="hover-line transition-colors">
               +49 176 36378888
             </a>
-            <a href="mailto:beyond_catering@gmail.com" className="transition-colors">
+            <a href="mailto:beyond_catering@gmail.com" className="hover-line transition-colors">
               beyond_catering@gmail.com
             </a>
           </div>

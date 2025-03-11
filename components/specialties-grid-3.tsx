@@ -24,7 +24,7 @@ const specialties = [
 
 export default function SpecialtiesGrid() {
   return (
-    <section className="py-10 pb-20 px-4 bg-[#191a23] text-[#cdab6e]">
+    <section className="py-10 mb-20 px-4 bg-[#191a23] text-[#cdab6e]">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {specialties.map((specialty, index) => (

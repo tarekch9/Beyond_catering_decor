@@ -5,7 +5,7 @@ export default function Home() {
     <section className="bg-[#191a23] text-white py-20 px-4 border-t border-[#555555]">
       <div className="container mx-auto max-w-6xl">
         {/* Hero Section */}
-        <div className="text-center mb-24">
+        <div className="text-center mb-20">
           <h1 className="text-[#cdab6e] text-4xl md:text-5xl lg:text-6xl font-serif mb-2 leading-tight">
             Catering for every Occasion.
           </h1>
@@ -20,7 +20,7 @@ export default function Home() {
               <ShoppingBasket className="w-16 h-16 text-white" />
             </div>
             <h3 className="text-[#cdab6e] text-2xl font-medium mb-4">Catered Events</h3>
-            <p className="md:text-s text-white font-light">
+            <p className="md:text-s text-[#f2f1f0]/90 font-light">
               From conferences to corporate events, private parties to galas, when it matters most, we&apos;re the
               partner you can trust to get it right.
             </p>
@@ -32,7 +32,7 @@ export default function Home() {
               <Building2 className="w-16 h-16 text-white" />
             </div>
             <h3 className="text-[#cdab6e] text-2xl font-medium mb-4">Workplace Dining</h3>
-            <p className="md:text-s text-white font-light">
+            <p className="md:text-s text-[#f2f1f0]/90 font-light">
               Give your employees healthy, fresh, and diverse culinary offerings in your workplace with our customized
               food service programs.
             </p>
@@ -44,7 +44,7 @@ export default function Home() {
               <SmilePlus className="w-16 h-16 text-white" />
             </div>
             <h3 className="text-[#cdab6e] text-2xl font-medium mb-4">Delivery</h3>
-            <p className="md:text-s text-white font-light">
+            <p className="md:text-s text-[#f2f1f0]/90 font-light">
               Whether it&apos;s breakfast, lunch, or fruit platters, in the office, or at home, we&apos;re the best
               route to delicious, quality food.
             </p>
