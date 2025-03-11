@@ -20,7 +20,7 @@ export default function TrustedPartner() {
 
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-xl font-serif mb-2">Where every event becomes a masterpiece</h3>
+                <h3 className="text-xl font-serif mb-4">Where every event becomes a masterpiece</h3>
                 <p className="text-[#f2f1f0]/90 font-thin">
                   Every event is a work of art, crafted with precision, creativity, and exceptional service to leave a
                   lasting impression
@@ -28,7 +28,7 @@ export default function TrustedPartner() {
               </div>
 
               <div>
-                <h3 className="text-xl font-serif mb-2">Seamless service, spectacular flavors</h3>
+                <h3 className="text-xl font-serif mb-4">Seamless service, spectacular flavors</h3>
                 <p className="text-[#f2f1f0]/90 font-thin">
                   Flawless hospitality and exquisite cuisine come together for an unforgettable experience
                 </p>

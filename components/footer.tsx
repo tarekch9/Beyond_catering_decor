@@ -44,8 +44,8 @@ export default function Home() {
           </nav>
         </div>
 
-        <div className="mt-4 px-20 pt-4 border-t border-[#555555] flex flex-col md:flex-row items-center justify-between">
-          <div className="flex gap-4 mb-4 md:mb-0 order-2 md:order-1">
+        <div className="mt-4 px-16 pt-4 border-t border-[#555555] flex flex-col md:flex-row items-center justify-between">
+          <div className="flex gap-4 mb-4 md:mb-0 order-2 md:order-1 text-[#f2f1f0] font-thin">
             <Link href="/privacy" className="text-sm text-[#afafaf] hover:text-white transition-colors">
               Privacy & Policy
             </Link>
