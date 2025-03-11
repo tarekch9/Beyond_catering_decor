@@ -9,7 +9,7 @@ export default function TrustedPartner() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left side - Content */}
           <div>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif mb-3 leading-tight">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif mb-4 leading-tight">
               Your Trusted Partner for Memorable Catered Events and Celebrations
             </h2>
 

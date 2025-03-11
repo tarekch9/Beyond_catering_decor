@@ -4,9 +4,9 @@ import Link from "next/link"
 
 export default function Home() {
   return (
-    <div className="bg-[#080600] mt-8 pt-4 border-t border-[#555555]">
-      <footer className="container mx-auto px-2 py-7">
-        <div className="flex flex-col md:flex-row items-center justify-between">
+    <div className="bg-[#080600] mt-6 pt-2 border-t border-[#555555]">
+      <footer className="container mx-auto px-2 py-2">
+        <div className="flex flex-col md:flex-row items-center justify-between px-20">
           <div className="mb-4 md:mb-0">
             <div className="mb-4 md:mb-0">
                         <Image
@@ -18,7 +18,7 @@ export default function Home() {
                         />
                       </div>
           </div>
-          <nav className="flex-1 flex justify-center md:justify-end">
+          <nav className="flex-1 flex justify-center md:justify-end text-[#f2f1f0]/90 font-thin">
             <ul className="flex flex-wrap gap-6 md:gap-8 text-white">
               <li>
                 <Link href="/" className="hover:text-[#cdab6e] transition-colors">
@@ -44,7 +44,7 @@ export default function Home() {
           </nav>
         </div>
 
-        <div className="mt-8 pt-4 border-t border-[#555555] flex flex-col md:flex-row items-center justify-between">
+        <div className="mt-4 px-20 pt-4 border-t border-[#555555] flex flex-col md:flex-row items-center justify-between">
           <div className="flex gap-4 mb-4 md:mb-0 order-2 md:order-1">
             <Link href="/privacy" className="text-sm text-[#afafaf] hover:text-white transition-colors">
               Privacy & Policy

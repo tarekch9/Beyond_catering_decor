@@ -2,7 +2,7 @@ import Image from "next/image"
 import { Instagram, Linkedin } from "lucide-react"
 import BrandTiktok from "@/components/brand-tiktok"
 import Header from "@/components/header"
-import ServicesSection from "@/components/services-section"
+import Explore_catering from "@/components/explore_catering"
 import WeStandFor from "@/components/we-stand-for"
 import WorkplaceDining from "@/components/workplace-dining"
 import SpecialtiesGrid1 from "@/components/specialties-grid-1"
@@ -43,7 +43,7 @@ export default function Home() {
       <WeStandFor />
 
       {/* Services Section */}
-      <ServicesSection />
+      <Explore_catering />
 
       {/* Workplace Dining Section */}
       <WorkplaceDining />
