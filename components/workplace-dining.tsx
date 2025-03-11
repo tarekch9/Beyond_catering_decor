@@ -53,7 +53,7 @@ export default function WorkplaceDining() {
               >
                 Our Services
               </a>
-              <a href="#" className="flex items-center gap-2 text-[#cdab6e] px-6 py-3 hover:underline">
+              <a href="#" className="flex items-center gap-2 text-[#cdab6e] px-6 py-3 hover:underline ">
                 Contact Us <ArrowRight className="w-4 h-4" />
               </a>
             </div>

@@ -55,6 +55,8 @@ module.exports = {
         "beyond-gold": "#cdab6e",
       },
       fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+        outfit: ['Outfit', 'sans-serif'],
         sans: ["var(--font-inter)"],
         serif: ["var(--font-playfair)"],
       },
