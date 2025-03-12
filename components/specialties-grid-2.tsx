@@ -64,7 +64,7 @@ export default function SpecialtiesGrid() {
                   className="bg-white bg-opacity-10 rounded-xl overflow-hidden border border-4 border-[#cdab6e]/20 hover:border-[#cdab6e]/50 transition-all">
                   <div className="h-96 overflow-hidden">
                     <Image
-                      src="/images/charcuterie_boards.jpeg"
+                      src="/images/Charcuterie_boards_n.jpeg"
                       alt= "Breakfast Buffet"
                       width={400}
                       height={300}

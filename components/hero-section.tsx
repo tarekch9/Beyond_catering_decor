@@ -20,7 +20,7 @@ export default function Home() {
                 <p className="mt-2 font-sans font-extralight text-s leading-7 text-white lg:max-w-md xl:pr-0 lg:pr-16">From Conferences to Corporate events, private parties to galas. When it  matters most, we're the partner you can trust to get it right.</p>
                 <div className="flex flex-wrap gap-4 py-4">
               <a
-                href="#"
+                href="#specialised"
                 className="text-sm font-light bg-[#94794a] border border-[#cdab6e] text-[#ffffff] px-6 py-3 rounded-md hover:text-black transition-colors duration-300"
               >
                 Our Services

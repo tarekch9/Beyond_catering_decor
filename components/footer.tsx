@@ -21,17 +21,17 @@ export default function Home() {
           <nav className="flex-1 flex justify-center md:justify-end text-[#f2f1f0]/90 font-thin">
             <ul className="flex flex-wrap gap-6 md:gap-8 text-white">
               <li>
-                <Link href="/" className="hover:text-[#cdab6e] transition-colors">
+                <Link href="#" className="hover:text-[#cdab6e] transition-colors">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-[#cdab6e] transition-colors">
+                <Link href="#westandfor" className="hover:text-[#cdab6e] transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="hover:text-[#cdab6e] transition-colors">
+                <Link href="#specialised" className="hover:text-[#cdab6e] transition-colors">
                   Our Services
                 </Link>
               </li>

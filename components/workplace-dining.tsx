@@ -48,7 +48,7 @@ export default function WorkplaceDining() {
 
             <div className="flex flex-wrap gap-1">
               <a
-                href="#"
+                href="#specialised"
                 className="border border-[#cdab6e] text-[#cdab6e] px-6 py-3 rounded-md hover:bg-[#94794a] hover:text-black transition-colors duration-300"
               >
                 Our Services

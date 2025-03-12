@@ -74,7 +74,7 @@ export default function Header() {
           <nav className="flex items-center font-thin font-serif">
             <ul className="flex space-x-8">
               <li>
-                <a href="#home" className="hover:text-[#cdab6e] transition-colors ">
+                <a href="#" className="hover:text-[#cdab6e] transition-colors ">
                   Home
                 </a>
               </li>
