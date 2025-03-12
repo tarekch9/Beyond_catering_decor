@@ -32,7 +32,7 @@ export default function Home() {
               </li>
               <li>
                 <Link href="/services" className="hover:text-[#cdab6e] transition-colors">
-                  Our services
+                  Our Services
                 </Link>
               </li>
               <li>

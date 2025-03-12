@@ -35,8 +35,9 @@
     --radius: 0.5rem;
   }
 
+
 .hover-line {
-    @apply relative inline-block; /* Tailwind Utility Classes */
+  @apply relative inline-block; /* Tailwind Utility Classes */
 }
 
 .hover-line::after {
@@ -49,6 +50,7 @@
     transform: scaleY(0.5);
     background-color: currentColor; /* Farbe der Linie (übernimmt Textfarbe) */
     transition: width 0.3s ease;
+    box-shadow: 0 0.5px 0 currentColor; /* Dünne Linie mit box-shadow */
 }
 
 .hover-line:hover::after {

@@ -46,14 +46,14 @@ export default function WorkplaceDining() {
               </li>
             </ul>
 
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-1">
               <a
                 href="#"
                 className="border border-[#cdab6e] text-[#cdab6e] px-6 py-3 rounded-md hover:bg-[#94794a] hover:text-black transition-colors duration-300"
               >
                 Our Services
               </a>
-              <a href="#" className="flex items-center gap-2 text-[#cdab6e] px-6 py-3 hover:underline ">
+              <a href="#" className="flex items-center gap-2 text-[#cdab6e] px-6 py-3 hover:underline">
                 Contact Us <ArrowRight className="w-4 h-4" />
               </a>
             </div>
