@@ -35,6 +35,10 @@
     --radius: 0.5rem;
   }
 
+/* styles/globals.css */
+html {
+  scroll-behavior: smooth;
+}
 
 .hover-line {
   @apply relative inline-block; /* Tailwind Utility Classes */

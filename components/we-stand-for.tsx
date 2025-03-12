@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function TrustedPartner() {
   return (
-    <section className="mt-16 px-4 pb-20">
+    <section id="westandfor" className="scroll-mt-20 mt-16 px-4 pb-20">
         <div className="max-w-5xl mx-auto bg-black rounded-3xl p-14">
           <h2 className="text-[#cdab6e] text-base md:text-5xl font-serif text-center mb-10">What We Stand For</h2>
 

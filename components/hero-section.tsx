@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button"
 export default function Home() {
   return (
     <main className="min-h-screen">
+      <section id="home">
        <div className="relative py-18 bg-gray-900 sm:py-16 lg:py-20 xl:pt-32 xl:pb-44">
         <div className="absolute inset-0 hidden lg:block">
             <img className="object-cover object-right-bottom w-full h-full" src="/images/hero-banner.jpeg" alt="" />
@@ -31,6 +32,7 @@ export default function Home() {
             </div>
         </div>
     </div>
+    </section>
     </main>
   )
 }

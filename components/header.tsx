@@ -40,8 +40,8 @@ export default function Header() {
             <a href="tel:+4917636378888" className="hover-line transition-colors">
               +49 176 36378888
             </a>
-            <a href="mailto:beyond_catering@gmail.com" className="hover-line transition-colors">
-              beyond_catering@gmail.com
+            <a href="mailto:Beyondcateringdecor.co.uk" className="hover-line transition-colors">
+            @Beyondcateringdecor.co.uk
             </a>
           </div>
         </div>
@@ -74,17 +74,17 @@ export default function Header() {
           <nav className="flex items-center font-thin font-serif">
             <ul className="flex space-x-8">
               <li>
-                <a href="#" className="hover:text-[#cdab6e] transition-colors ">
+                <a href="#home" className="hover:text-[#cdab6e] transition-colors ">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#cdab6e] transition-colors">
+                <a href="#westandfor" className="hover:text-[#cdab6e] transition-colors">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#cdab6e] transition-colors">
+                <a href="#specialised" className="hover:text-[#cdab6e] transition-colors">
                   Our Services
                 </a>
               </li>
