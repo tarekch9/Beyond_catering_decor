@@ -1,5 +1,6 @@
 import Image from "next/image"
 //import Trustedpartner from "public/images/your_trusted_partner.mp4";
+import Home from "@/components/page";
 
 export default function TrustedPartner() {
   return (
@@ -20,12 +21,13 @@ export default function TrustedPartner() {
           </div>
 
           <div className="flex justify-center mt-12">
-            <a
+            {/* <a
               href="#contact"
               className="border border-[#cdab6e] text-[#ffffff] px-8 py-3 rounded-md hover:bg-[#94794a] hover:text-black transition-colors duration-300"
             >
               Contact Us
-            </a>
+            </a> */}
+            < Home/>
           </div>
         </div>
       </section>
