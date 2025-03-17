@@ -26,7 +26,7 @@ const Home = () => {
     <div className="overflow-y-scroll flex flex-col items-center justify-center">
       <button 
         onClick={() => setIsModalOpen(true)}
-        className="text-[#cdab6e] px-4 py-2 bg-black border border-[#cdab6e] hover:bg-[#94794a] transition-colors duration-300 text-white rounded-lg"
+        className="text-sm font-light px-4 py-2 bg-black border border-[#cdab6e] hover:bg-[#94794a] transition-colors duration-300 text-white rounded-md"
       >
         Contact Us
       </button>
