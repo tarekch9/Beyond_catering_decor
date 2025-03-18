@@ -2,6 +2,7 @@ import Image from "next/image"
 import { ArrowRight, Check } from "lucide-react"
 import hero from "/public/images/hero-banner.jpeg"; // Pfad zum Bild
 import { Button } from "@/components/ui/button"
+import Modal from "@/components/page"
 
 
 
@@ -18,15 +19,15 @@ export default function Home() {
             <div className="rounded-md mx-auto text-center lg:max-w-md xl:max-w-lg lg:text-left lg:mx-0 bg-[#8C6E1C] bg-opacity-80 p-8 border border-[#cdab6e]">
                 <h1 className="text-3xl text-black sm:text-4xl xl:text-4xl xl:leading-tight text-sm font-serif">BEYOND CATERING & DECOR</h1>
                 <p className="mt-2 font-sans font-extralight text-s leading-7 text-white lg:max-w-md xl:pr-0 lg:pr-16">From Conferences to Corporate events, private parties to galas. When it  matters most, we're the partner you can trust to get it right.</p>
-                <div className="flex flex-wrap gap-4 py-4">
+                <div className="flex flex-wrap gap-3 py-3">
+              <a href="#">
+                <Modal />
+              </a>
               <a
                 href="#specialised"
                 className="text-sm font-light bg-[#94794a] border border-[#cdab6e] text-[#ffffff] px-6 py-3 rounded-md hover:text-black transition-colors duration-300"
               >
                 Our Services
-              </a>
-              <a href="#" className="text-sm font-light border border-[#cdab6e] flex items-center gap-2 hover:bg-[#0a0a0a] transition-colors duration-300 rounded-md text-[#ffffff] px-6 py-3">
-                Contact Us <ArrowRight className="w-4 h-4" />
               </a>
             </div>
             </div>

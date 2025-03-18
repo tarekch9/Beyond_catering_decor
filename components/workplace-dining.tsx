@@ -1,6 +1,8 @@
 import Image from "next/image"
 import myImage from "/public/images/board.jpeg"; // Pfad zum Bild
 import { ArrowRight, Check } from "lucide-react"
+import Button from "@/components/page";
+
 
 export default function WorkplaceDining() {
   return (
@@ -46,15 +48,15 @@ export default function WorkplaceDining() {
               </li>
             </ul>
 
-            <div className="flex flex-wrap gap-1">
+            <div className="flex flex-wrap gap-3">
               <a
                 href="#specialised"
-                className="border border-[#cdab6e] text-[#cdab6e] px-6 py-3 rounded-md hover:bg-[#94794a] hover:text-black transition-colors duration-300"
+                className="text-[#cdab6e] px-4 py-2 rounded-md hover:underline"
               >
                 Our Services
               </a>
-              <a href="#" className="flex items-center gap-2 text-[#cdab6e] px-6 py-3 hover:underline">
-                Contact Us <ArrowRight className="w-4 h-4" />
+              <a className="flex items-center text-[#cdab6e]">
+              <Button/>
               </a>
             </div>
           </div>

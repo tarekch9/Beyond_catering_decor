@@ -1,6 +1,6 @@
 import Image from "next/image"
 //import Trustedpartner from "public/images/your_trusted_partner.mp4";
-import Home from "@/components/page";
+import Button from "@/components/page";
 
 export default function TrustedPartner() {
   return (
@@ -27,7 +27,7 @@ export default function TrustedPartner() {
             >
               Contact Us
             </a> */}
-            < Home/>
+            < Button/>
           </div>
         </div>
       </section>

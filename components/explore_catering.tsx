@@ -18,7 +18,7 @@ export default function ServicesSection() {
               Delicious Offerings to Elevate Your Events and Gatherings
             </h3>
             <p className="mb-3 md:text-xs text-white font-light">From breakfast buffets to fine dining, we cater to all your needs.</p>
-            <a href="#" className="text-[#cdab6e] text-sm hover:underline mt-auto">
+            <a href="#trusted_partner" className="text-[#cdab6e] text-sm hover:underline mt-auto">
               Your Trusted Partner
             </a>
           </div>
@@ -32,7 +32,7 @@ export default function ServicesSection() {
             <p className="mb-3 md:text-xs text-white font-light">
               Satisfy your cravings with our delightful candy bars and fruit platters.
             </p>
-            <a href="#" className="text-[#cdab6e] hover:underline mt-auto text-sm">
+            <a href="#specialised" className="text-[#cdab6e] hover:underline mt-auto text-sm">
               Our Services
             </a>
           </div>
