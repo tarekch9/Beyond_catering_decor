@@ -98,7 +98,7 @@ export default function Header() {
 
           {/* Social Media Icons */}
           <div className="hidden md:flex items-center space-x-4 ml-8">
-            <a href="#" className="text-white hover:text-[#cdab6e] transition-colors">
+            <a href="https://www.instagram.com/beyondcateringdecor/" target="_blank" className="text-white hover:text-[#cdab6e] transition-colors">
               <Instagram size={20} />
             </a>
             <a href="#" className="text-white hover:text-[#cdab6e] transition-colors">

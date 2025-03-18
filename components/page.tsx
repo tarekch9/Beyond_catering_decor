@@ -32,7 +32,7 @@ const Home = () => {
       </button>
 
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
-        <form onSubmit={handleSubmit(onSubmit)} className="mx-auto bg-black p-6 rounded-lg shadow text-[#f2f1f0]/90">
+        <form onSubmit={handleSubmit(onSubmit)} className="mx-auto bg-black p-20 rounded-lg shadow text-[#f2f1f0]/90">
           {step === 1 && (
             <div>
               <h2 className="text-xl mb-4 font-serif text-[#cdab6e]">Step 1: Contact Information</h2>
