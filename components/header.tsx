@@ -31,9 +31,7 @@ export default function Header() {
     <>
       {/* Contact Info Bar (Disappears on scroll down) */}
       <div
-        className={`bg-black text-white md:text-base py-3 w-full fixed top-0 left-0 z-50 transition-all duration-300
-        }`}
-      >
+        className="bg-black text-white md:text-base py-3 w-full fixed top-0 left-0 z-50 transition-all duration-300">
         <div className="font-sans font-thin text-xs container mx-auto px-20 flex justify-between items-center">
           <div>Beyond catering and decor. Catering with love</div>
           <div className="hidden md:flex items-center gap-6">

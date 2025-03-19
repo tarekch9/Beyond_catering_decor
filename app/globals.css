@@ -51,9 +51,9 @@ html {
     bottom: -2px; /* Abstand der Linie vom Text */
     width: 0;
     height: 0.5px; /* Dicke der Linie */
-    transform: scaleY(0.5);
+    transform: none; /* Entferne die Skalierung */
     background-color: currentColor; /* Farbe der Linie (übernimmt Textfarbe) */
-    transition: width 0.3s ease;
+    transition: width 0.3s ease, background-color 0.3s ease;
     box-shadow: 0 0.5px 0 currentColor; /* Dünne Linie mit box-shadow */
 }
 
