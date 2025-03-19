@@ -15,9 +15,70 @@ const Home = () => {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => {
-    console.log("Formulardaten:", data);
+  const onSubmit = async (data) => {
+    try {
+      // Hier die E-Mail-Adresse angeben, an die das Formular gesendet werden soll
+      const recipientEmail = "tachaani@protonmail.com";
+  
+      // Formulardaten vorbereiten
+      const emailData = {
+        to: recipientEmail,
+        subject: "Neue Formularübermittlung",
+        text: `Formulardaten:\n${JSON.stringify(data, null, 2)}`,
+      };
+  
+      const onSubmit = async (data) => {
+        try {
+          // Hier die E-Mail-Adresse angeben, an die das Formular gesendet werden soll
+          const recipientEmail = "tachaani@protonmail.com";
+      
+          // Formulardaten vorbereiten
+          const emailData = {
+            to: recipientEmail,
+            subject: "Neue Formularübermittlung",
+            text: `Formulardaten:\n${JSON.stringify(data, null, 2)}`,
+          };
+      
+          // Daten an den Server senden (z. B. per Fetch API)
+          const response = await fetch("/api/send-email", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(emailData),
+          });
+      
+          if (response.ok) {
+            alert("Formular erfolgreich gesendet!");
+          } else {
+            alert("Fehler beim Senden des Formulars.");
+          }
+        } catch (error) {
+          console.error("Fehler:", error);
+          alert("Ein Fehler ist aufgetreten.");
+        }
+      };
+
+      // Daten an den Server senden (z. B. per Fetch API)
+      const response = await fetch("/api/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(emailData),
+      });
+  
+      if (response.ok) {
+        alert("Formular erfolgreich gesendet!");
+      } else {
+        alert("Fehler beim Senden des Formulars.");
+      }
+    } catch (error) {
+      console.error("Fehler:", error);
+      alert("Ein Fehler ist aufgetreten.");
+    }
   };
+
 
   const nextStep = () => setStep(step + 1);
   const prevStep = () => setStep(step - 1);
