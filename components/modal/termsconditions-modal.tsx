@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import Modal from "./ui/modal";
+import Modal from "../ui/modal";
 import { useForm } from "react-hook-form";
 
 const ModalCopy = () => {
@@ -19,9 +19,9 @@ const ModalCopy = () => {
     <div className="overflow-y-scroll flex flex-col items-center justify-center">
       <button 
         onClick={() => setIsModalOpen(true)}
-        className="text-sm font-light bg-[#0a0700] border border-[#cdab6e] text-[#edebeb] px-6 py-3 rounded-md hover:bg-[#cdab6e] transition-colors duration-300"
+        className="text-sm text-[#f2f1f0]/90 hover:text-white transition-colors"
       >
-        Contact Us
+        Terms & Conditions
       </button>
 
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>

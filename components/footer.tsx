@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
-import PrivacyPolicy from "@/components/privacypolicy"
+import ModalCopy2 from "@/components/modal/privacypolicy-modal"
+import ModalCopy from "@/components/modal/termsconditions-modal";
 
 
 export default function Home() {
@@ -22,14 +23,10 @@ export default function Home() {
           <nav className="flex-1 flex justify-center md:justify-end text-[#f2f1f0] font-thin">
             <ul className="flex flex-wrap gap-6 md:gap-8 text-white">
               <li>
-              <Link href="/privacypolicy" className="text-sm text-[#f2f1f0]/90 hover:text-white transition-colors">
-              Privacy & Policy
-            </Link>
+              <ModalCopy />
               </li>
               <li>
-              <Link href="/terms" className="text-sm text-[#f2f1f0]/90 hover:text-white transition-colors">
-              Terms & Conditions
-            </Link>
+             <ModalCopy2 />
               </li>
             </ul>
           </nav>

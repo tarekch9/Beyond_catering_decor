@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import Modal from "./ui/modal";
+import Modal from "../ui/modal";
 import { useForm } from "react-hook-form";
 
 const Home = () => {

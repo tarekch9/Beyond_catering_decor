@@ -1,12 +1,12 @@
 import Image from "next/image"
 import { ArrowRight, Check } from "lucide-react"
 import hero from "/public/images/hero-banner.jpeg"; // Pfad zum Bild
-import Modal from "@/components/contact-modal"
-import Button from "@/components/contact-modal";
+import Modal from "@/components/modal/contact-modal"
+import Button from "@/components/modal/contact-modal";
 import { MessageSquare, SmilePlus } from "lucide-react"
 import myImage from "/public/images/board.jpeg"; // Pfad zum Bild
-import ModalCopy from "@/components/privacypolicy-modal";
-import ModalCopy2 from "@/components/termsconditions-modal"
+import ModalCopy from "@/components/modal/privacypolicy-modal";
+import ModalCopy2 from "@/components/modal/termsconditions-modal"
 
 import SpecialtiesGrid1 from "@/components/specialties-grid-1"
 import SpecialtiesGrid2 from "@/components/specialties-grid-2"
@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <main className="min-h-screen">
      <section id="home" aria-label="Home Section">
-  <div className="relative padding-bottom-80 padding-top-36 sm:pt-36 sm:pb-80 lg:pt-36 lg:pb-80 xl:pt-36 xl:pb-80 bg-gray-900">
+  <div className="relative padding-bottom-80 padding-top-52 sm:pt-36 sm:pb-80 lg:pt-52 lg:pb-80 xl:pt-52 xl:pb-80 bg-gray-900">
     <div className="absolute inset-0 hidden lg:block">
       <img
         className="object-cover object-right-bottom w-full h-full"
@@ -36,8 +36,6 @@ export default function Home() {
           BEYOND CATERING & DECOR
         </h1>
         <p className="mt-2 font-sans font-extralight text-sm leading-7 text-white lg:max-w-md xl:pr-0 lg:pr-16">
-           <ModalCopy />
-           <ModalCopy2 />
           From Conferences to Corporate events, private parties to galas. When it matters most, we're the partner you can trust to get it right.
         </p>
         <div className="flex flex-wrap gap-3 py-3">
