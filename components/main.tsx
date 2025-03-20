@@ -5,7 +5,8 @@ import Modal from "@/components/contact-modal"
 import Button from "@/components/contact-modal";
 import { MessageSquare, SmilePlus } from "lucide-react"
 import myImage from "/public/images/board.jpeg"; // Pfad zum Bild
-import ModalCopy from "@/components/contact-modal-copy";
+import ModalCopy from "@/components/privacypolicy-modal";
+import ModalCopy2 from "@/components/termsconditions-modal"
 
 import SpecialtiesGrid1 from "@/components/specialties-grid-1"
 import SpecialtiesGrid2 from "@/components/specialties-grid-2"
@@ -36,6 +37,7 @@ export default function Home() {
         </h1>
         <p className="mt-2 font-sans font-extralight text-sm leading-7 text-white lg:max-w-md xl:pr-0 lg:pr-16">
            <ModalCopy />
+           <ModalCopy2 />
           From Conferences to Corporate events, private parties to galas. When it matters most, we're the partner you can trust to get it right.
         </p>
         <div className="flex flex-wrap gap-3 py-3">
