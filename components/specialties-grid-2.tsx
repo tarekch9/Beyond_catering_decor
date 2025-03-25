@@ -68,6 +68,7 @@ export default function SpecialtiesGrid() {
                       alt= "Breakfast Buffet"
                       width={400}
                       height={300}
+                      objectFit= "contain"
                       className="w-full h-full object-cover"
                     />
                   </div>

@@ -37,6 +37,7 @@ export default function SpecialtiesGrid() {
                   alt={specialty.title}
                   width={400}
                   height={300}
+                  objectFit="contain"
                   className="w-full h-full object-cover scale-20"
                 />
               </div>
