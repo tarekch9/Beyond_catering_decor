@@ -1,5 +1,5 @@
-import Image from "next/image"
-import breakfast from '/images/breakfastbasket.jpeg'; // Pfad zum Bild
+import Image from "next/image";
+import breakfast from "/images/breakfastbasket.jpeg"; // Pfad zum Bild
 
 const specialties = [
   {
@@ -20,7 +20,7 @@ const specialties = [
     description:
       "Our salads are made with the freshest, crisp ingredients, offering a healthy and vibrant addition to any event. From classic favorites to creative, seasonal combinations, each salad is thoughtfully crafted to provide a delicious and refreshing experience for your guests.",
   },
-]
+];
 
 export default function SpecialtiesGrid() {
   return (
@@ -30,26 +30,27 @@ export default function SpecialtiesGrid() {
           {specialties.map((specialty, index) => (
             <div
               key={index}
-              className="bg-[#f7f7f7] bg-opacity-10 rounded-xl overflow-hidden border border-4 border-[#cdab6e]/20 hover:border-[#cdab6e]/50 transition-all">
+              className="bg-[#f7f7f7] bg-opacity-10 rounded-xl overflow-hidden border border-4 border-[#cdab6e]/20 hover:border-[#cdab6e]/50 transition-all"
+            >
               <div className="h-96 overflow-hidden">
                 <Image
                   src={specialty.image || "/placeholder.jpeg"}
                   alt={specialty.title}
-                  width={400}
-                  height={300}
-                  objectFit="contain"
-                  className="w-full h-full object-cover scale-20"
+                  width={800} // gewünschte Breite
+                  height={600} // Höhe proportional zum Bild
+                  className="object-contain"
                 />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-serif mb-3">{specialty.title}</h3>
-                <p className="text-sm text-[#cdab6e]/80">{specialty.description}</p>
+                <p className="text-sm text-[#cdab6e]/80">
+                  {specialty.description}
+                </p>
               </div>
             </div>
           ))}
         </div>
       </div>
     </section>
-  )
+  );
 }
-
