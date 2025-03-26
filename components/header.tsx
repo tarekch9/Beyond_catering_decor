@@ -6,7 +6,6 @@ import BrandTiktok from "@/components/brand-tiktok";
 import { useState, useEffect } from "react";
 import Modal2 from "@/components/modal/contact-modal copy";
 
-
 export default function Header() {
   const [isVisible, setIsVisible] = useState(true);
   const [isContactVisible, setIsContactVisible] = useState(true);
@@ -32,22 +31,25 @@ export default function Header() {
   return (
     <>
       {/* Contact Info Bar (Disappears on scroll down) */}
-      <div
-        className="bg-black text-white md:text-base py-3 w-full fixed top-0 left-0 z-50 transition-all duration-300">
+      <div className="bg-black text-white md:text-base py-3 w-full fixed top-0 left-0 z-50 transition-all duration-300">
         <div className="font-sans font-thin text-xs container mx-auto px-20 flex justify-between items-center">
           <div>Beyond catering and decor. Catering with love</div>
           <div className="hidden md:flex items-center gap-6">
-            <a href="tel:+447903618868" className="hover-line transition-colors">
+            <a
+              href="tel:+447903618868"
+              className="hover-line transition-colors"
+            >
               +44 7903 618868
             </a>
-            <a href="mailto:Beyondcateringdecor.co.uk" className="hover-line transition-colors">
-            @Beyondcateringdecor.co.uk
+            <a
+              href="mailto:Beyondcateringdecor.co.uk"
+              className="hover-line transition-colors"
+            >
+              @Beyondcateringdecor.co.uk
             </a>
           </div>
         </div>
       </div>
-
-      
 
       {/* Main Header (Stays but fades slightly when scrolling) */}
       <header
@@ -79,18 +81,24 @@ export default function Header() {
                 </a>
               </li>
               <li>
-                <a href="#westandfor" className="hover:text-[#cdab6e] transition-colors">
+                <a
+                  href="#westandfor"
+                  className="hover:text-[#cdab6e] transition-colors"
+                >
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#specialised" className="hover:text-[#cdab6e] transition-colors">
+                <a
+                  href="#specialised"
+                  className="hover:text-[#cdab6e] transition-colors"
+                >
                   Our Services
                 </a>
               </li>
               <li>
                 <a className="hover:text-[#cdab6e] transition-colors">
-                <Modal2 />
+                  <Modal2 />
                 </a>
               </li>
             </ul>
@@ -98,13 +106,23 @@ export default function Header() {
 
           {/* Social Media Icons */}
           <div className="hidden md:flex items-center space-x-4 ml-8">
-            <a href="https://www.instagram.com/beyondcateringdecor/" target="_blank" className="text-white hover:text-[#cdab6e] transition-colors">
+            <a
+              href="https://www.instagram.com/beyondcateringdecor/"
+              target="_blank"
+              className="text-white hover:text-[#cdab6e] transition-colors"
+            >
               <Instagram size={20} />
             </a>
-            <a href="#" className="text-white hover:text-[#cdab6e] transition-colors">
+            <a
+              href="#"
+              className="text-white hover:text-[#cdab6e] transition-colors"
+            >
               <BrandTiktok size={20} />
             </a>
-            <a href="#" className="text-white hover:text-[#cdab6e] transition-colors">
+            <a
+              href="#"
+              className="text-white hover:text-[#cdab6e] transition-colors"
+            >
               <Linkedin size={20} />
             </a>
           </div>

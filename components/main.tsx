@@ -17,10 +17,10 @@ import { ShoppingBasket, Building2 } from "lucide-react";
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen mt-16">
       <section id="home" aria-label="Home Section">
         <div className="relative padding-bottom-80 padding-top-52 sm:pt-36 sm:pb-80 lg:pt-52 lg:pb-80 xl:pt-52 xl:pb-80 bg-gray-900">
-          <div className="absolute inset-0 hidden lg:block">
+          <div className="absolute inset-0 lg:block">
             <img
               className="object-cover object-right-bottom w-full h-full"
               src="/images/hero-banner.jpeg"
@@ -55,7 +55,7 @@ export default function Home() {
       </section>
       <section id="westandfor" className="scroll-mt-36 mt-16 px-4 pb-20">
         <div className="max-w-5xl mx-auto bg-black rounded-3xl p-14">
-          <h2 className="text-[#cdab6e] text-base md:text-5xl font-serif text-center mb-10">
+          <h2 className="text-[#cdab6e] text-base text-5xl font-serif text-center mb-10">
             What We Stand For
           </h2>
 
@@ -66,7 +66,7 @@ export default function Home() {
               hospitality solutions is born from our mantra to "care more."
             </p>
 
-            <p className="text-lg md:text-base">
+            <p className="text-base md:text-base">
               Sustainability is in our DNA., we practice what we preach. We will
               continually strive to be eco-conscious in everything we do.
             </p>
@@ -83,9 +83,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="py-20 px-4 bg-[#191a23] text-[#cdab6e] border-t border-[#555555] ">
+      <section className="py-16 px-4 bg-[#191a23] text-[#cdab6e] border-t border-[#555555] ">
         <div className="container mx-auto">
-          <h2 className="text-2xl md:text-2xl lg:text-5xl font-serif text-center mb-16 max-w-5xl mx-auto leading-tight">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif mb-10 leading-tight text-center">
             Explore Our Exceptional Catering Services Tailored For Every
             Occasion
           </h2>
@@ -95,10 +95,10 @@ export default function Home() {
               <div className="w-16 h-16 mb-6 flex items-center justify-center text-white">
                 <Check className="w-12 h-12" />
               </div>
-              <h3 className="text-l md:text-xl font-serif mb-4">
+              <h3 className="text-xl font-serif mb-4">
                 Delicious Offerings to Elevate Your Events and Gatherings
               </h3>
-              <p className="mb-3 md:text-xs text-white font-light">
+              <p className="mb-6 text-[#f2f1f0]/90 font-extralight">
                 From breakfast buffets to fine dining, we cater to all your
                 needs.
               </p>
@@ -115,10 +115,10 @@ export default function Home() {
               <div className="w-16 h-16 mb-6 flex items-center justify-center text-white">
                 <MessageSquare className="w-12 h-12" />
               </div>
-              <h3 className="text-l md:text-xl font-serif mb-4">
+              <h3 className="text-xl md:text-xl font-serif mb-4">
                 Indulge in Our Variety of Sweet and Savory Treats
               </h3>
-              <p className="mb-3 md:text-xs text-white font-light">
+              <p className="mb-6 text-[#f2f1f0]/90 font-extralight">
                 Satisfy your cravings with our delightful candy bars and fruit
                 platters.
               </p>
@@ -135,10 +135,10 @@ export default function Home() {
               <div className="w-16 h-16 mb-6 flex items-center justify-center text-white">
                 <SmilePlus className="w-12 h-12" />
               </div>
-              <h3 className="text-l md:text-xl font-serif mb-4">
+              <h3 className="text-xl md:text-xl font-serif mb-4">
                 Experience the Art of Charcuterie with Our Exquisite Boards
               </h3>
-              <p className="mb-3 md:text-xs text-white font-light">
+              <p className="mb-6 text-[#f2f1f0]/90 font-extralight">
                 Our charcuterie boards are perfect for impressing guests at any
                 event.
               </p>
@@ -276,7 +276,7 @@ export default function Home() {
 
       <SpecialtiesGrid3 />
 
-      <section className="bg-[#191a23] text-white py-20 px-4 border-t border-[#555555]">
+      <section className="bg-[#191a23] text-white py-16 px-4 border-t border-[#555555]">
         <div className="container mx-auto max-w-6xl">
           {/* Hero Section */}
           <div className="text-center mb-20">
