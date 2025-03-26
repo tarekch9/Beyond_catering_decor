@@ -7,6 +7,7 @@ import { MessageSquare, SmilePlus } from "lucide-react";
 import myImage from "/public/images/board.jpeg"; // Pfad zum Bild
 import ModalCopy from "@/components/modal/privacypolicy-modal";
 import ModalCopy2 from "@/components/modal/termsconditions-modal";
+import Modal2 from "@/components/modal/contact-modal copy";
 
 import SpecialtiesGrid1 from "@/components/specialties-grid-1";
 import SpecialtiesGrid2 from "@/components/specialties-grid-2";
@@ -143,10 +144,9 @@ export default function Home() {
                 event.
               </p>
               <a
-                href="#"
                 className="text-[#cdab6e] hover:underline mt-auto text-sm"
               >
-                Contact Us
+                <Modal2 />
               </a>
             </div>
           </div>

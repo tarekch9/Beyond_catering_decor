@@ -4,6 +4,8 @@ import Image from "next/image";
 import { Instagram, Linkedin } from "lucide-react";
 import BrandTiktok from "@/components/brand-tiktok";
 import { useState, useEffect } from "react";
+import Modal2 from "@/components/modal/contact-modal copy";
+
 
 export default function Header() {
   const [isVisible, setIsVisible] = useState(true);
@@ -87,8 +89,8 @@ export default function Header() {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#cdab6e] transition-colors">
-                  Contact Us
+                <a className="hover:text-[#cdab6e] transition-colors">
+                <Modal2 />
                 </a>
               </li>
             </ul>
