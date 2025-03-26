@@ -46,10 +46,10 @@ const ModalCopy3 = () => {
             <p className="mb-4">
               <strong>Email Address:</strong>{" "}
               <a
-                href="mailto:[Your Email Address]"
+                href="mailto:Beyondcateringdecor.co.uk"
                 className="text-blue-500 hover:underline"
               >
-                [Your Email Address]
+                Beyondcateringdecor.co.uk
               </a>
             </p>
             <p className="mb-4">
