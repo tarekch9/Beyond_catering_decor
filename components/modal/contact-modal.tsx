@@ -2,51 +2,11 @@
 
 import { useState } from "react";
 import Modal from "../ui/modal";
-import { useForm } from "react-hook-form";
 
 const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [step, setStep] = useState(1);
   const [file, setFile] = useState(null);
-
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-    reset,
-  } = useForm();
-
-  const handleClose = () => {
-    reset();
-    setFile(null);
-    setStep(1);
-    setIsModalOpen(false);
-  };
-
-  const handleFileChange = (event) => {
-    setFile(event.target.files[0]);
-  };
-
-  const onSubmit = async (data) => {
-    const formData = new FormData();
-    formData.append("file", file);
-    formData.append("data", JSON.stringify(data));
-
-    try {
-      const response = await fetch("/api/send-email", {
-        method: "POST",
-        body: formData,
-      });
-
-      if (!response.ok) throw new Error("Fehler beim Senden des Formulars.");
-
-      alert("Formular erfolgreich gesendet!");
-      handleClose();
-    } catch (error) {
-      console.error("Fehler:", error);
-      alert(error.message);
-    }
-  };
 
   const nextStep = () => setStep((prev) => prev + 1);
   const prevStep = () => setStep((prev) => Math.max(1, prev - 1));
@@ -69,21 +29,23 @@ const Home = () => {
             Want to get in touch with us and book us for one of your events?
             Just write us an E-Mail with the
             <strong> "Number of Guests"</strong>, <strong> "Location"</strong>,
-            <strong> "Event-Date"</strong>,<strong> "Budget"</strong> and you <strong> "Food Selection"</strong> and if you want as service type a
-            <strong> "Full Service"</strong> or a <strong> "Buffet Service"</strong>. Feel also free to send us
-            Photos of the venue, so that we can better prepare your personal,
-            unique Event :)
+            <strong> "Event-Date"</strong>,<strong> "Budget"</strong> and you{" "}
+            <strong> "Food Selection"</strong> and if you want as service type a
+            <strong> "Full Service"</strong> or a{" "}
+            <strong> "Buffet Service"</strong>. Feel also free to send us Photos
+            of the venue, so that we can better prepare your personal, unique
+            Event :)
           </p>
           <section className="mb-8">
             <div className="flex flex-wrap gap-3 py-4 place-content-center">
               <a
-                href="#specialised"
+                href="mailto:Beyondcateringdecor.co.uk"
                 className="text-sm font-light bg-black border border-[#cdab6e] text-white px-6 py-3 rounded-md hover:bg-[#cdab6e] hover:text-black transition-colors duration-300"
               >
                 E-Mail
               </a>
               <a
-                href="#specialised"
+                href="tel:+447903618868"
                 className="text-sm font-light bg-[#94794a] border border-[#cdab6e] text-white px-6 py-3 rounded-md hover:bg-[#cdab6e] hover:text-black transition-colors duration-300"
               >
                 Telephone
