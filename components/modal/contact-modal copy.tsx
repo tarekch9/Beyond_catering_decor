@@ -16,6 +16,12 @@ const Home = () => {
       <button onClick={() => setIsModalOpen(true)}>Contact Us</button>
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
         <div className="mx-auto bg-black p-16 rounded-lg shadow text-[#f2f1f0]/90 max-w-2xl overflow-y-auto">
+          <button
+            onClick={() => setIsModalOpen(false)}
+            className="absolute top-4 right-4 text-white text-xl hover:text-gray-400"
+          >
+            ✕
+          </button>
           <h1 className="text-4xl flex justify-center font-serif text-[#cdab6e] pb-4">
             Contact Us
           </h1>

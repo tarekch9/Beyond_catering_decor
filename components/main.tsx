@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <main className="min-h-screen mt-16">
       <section id="home" aria-label="Home Section">
-        <div className="relative padding-bottom-80 padding-top-52 sm:pt-52 sm:pb-80 lg:pt-52 lg:pb-80 xl:pt-52 xl:pb-80 bg-gray-900">
+        <div className="relative pb-80 pt-52 bg-gray-900">
           <div className="absolute inset-0 lg:block">
             <img
               className="object-cover object-right-bottom w-full h-full"
