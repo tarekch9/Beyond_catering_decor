@@ -70,7 +70,7 @@ const Home = () => {
             Just write us an E-Mail with the
             <strong> "Number of Guests"</strong>, <strong> "Location"</strong>,
             <strong> "Event-Date"</strong>,<strong> "Budget"</strong> and you <strong> "Food Selection"</strong> and if you want as service type a
-            <strong> "Full service"</strong> or a <strong> "Buffet Service"</strong>. Feel also free to send us
+            <strong> "Full Service"</strong> or a <strong> "Buffet Service"</strong>. Feel also free to send us
             Photos of the venue, so that we can better prepare your personal,
             unique Event :)
           </p>
