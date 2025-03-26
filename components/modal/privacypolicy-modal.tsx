@@ -26,6 +26,12 @@ const ModalCopy2 = () => {
 
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
         <div className="mx-auto bg-black p-20 rounded-lg shadow text-[#f2f1f0]/90 max-w-2xl h-screen overflow-y-auto">
+          <button
+            onClick={() => setIsModalOpen(false)}
+            className="absolute top-4 right-4 text-white text-xl hover:text-gray-400"
+          >
+            ✕
+          </button>
           <h1 className="text-3xl mb-6">Privacy Policy</h1>
 
           <section className="mb-8">
