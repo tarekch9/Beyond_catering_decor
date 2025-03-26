@@ -29,7 +29,7 @@ const ModalCopy3 = () => {
           <h1 className="text-3xl mb-6">Imprint</h1>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">1. Business Information</h2>
+            <h2 className="text-2xl mb-4">1. Business Information</h2>
             <p className="mb-4">
               <strong>Business Name:</strong> [Your Business Name]
             </p>
@@ -64,7 +64,7 @@ const ModalCopy3 = () => {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">
+            <h2 className="text-2xl mb-4">
               2. Additional Information
             </h2>
             <p className="mb-4">
@@ -87,7 +87,7 @@ const ModalCopy3 = () => {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">3. Disclaimer</h2>
+            <h2 className="text-2xl mb-4">3. Disclaimer</h2>
             <p className="mb-4">
               The information contained on this website is for general
               information purposes only. While we strive to ensure that the
@@ -100,7 +100,7 @@ const ModalCopy3 = () => {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">
+            <h2 className="text-2xl mb-4">
               4. Liability for Content
             </h2>
             <p className="mb-4">
@@ -113,7 +113,7 @@ const ModalCopy3 = () => {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">5. Liability for Links</h2>
+            <h2 className="text-2xl mb-4">5. Liability for Links</h2>
             <p className="mb-4">
               Our website may contain links to third-party websites. We have no
               influence on the content of these websites and are not responsible

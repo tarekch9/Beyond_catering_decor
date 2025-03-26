@@ -29,7 +29,7 @@ const ModalCopy4 = () => {
           <h1 className="text-3xl mb-6">Refund & Cancellation Policy</h1>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">1. Introduction</h2>
+            <h2 className="text-2xl mb-4">1. Introduction</h2>
             <p className="mb-4">
               Our Refund and Cancellation Policy ensures that you understand the
               terms under which refunds and cancellations are processed. By
@@ -39,7 +39,7 @@ const ModalCopy4 = () => {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">2. Refunds</h2>
+            <h2 className="text-2xl mb-4">2. Refunds</h2>
             <p className="mb-4">
               We offer refunds under specific conditions. If you are not
               satisfied with your purchase, you may request a refund within [X]
@@ -64,7 +64,7 @@ const ModalCopy4 = () => {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">3. Cancellations</h2>
+            <h2 className="text-2xl mb-4">3. Cancellations</h2>
             <p className="mb-4">
               If you wish to cancel your order, you may do so within [X] hours
               of placing the order. To cancel your order, please contact us as
@@ -85,7 +85,7 @@ const ModalCopy4 = () => {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">4. Non-Refundable Items</h2>
+            <h2 className="text-2xl mb-4">4. Non-Refundable Items</h2>
             <p className="mb-4">
               Certain products or services may not be eligible for refunds or
               cancellations, including but not limited to:
@@ -98,7 +98,7 @@ const ModalCopy4 = () => {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">5. Processing Time</h2>
+            <h2 className="text-2xl mb-4">5. Processing Time</h2>
             <p className="mb-4">
               Refunds and cancellations will be processed within [X] business
               days after we have received the return or cancellation request.
@@ -108,7 +108,7 @@ const ModalCopy4 = () => {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">6. Contact Us</h2>
+            <h2 className="text-2xl mb-4">6. Contact Us</h2>
             <p className="mb-4">
               If you have any questions or need assistance regarding our Refund
               and Cancellation Policy, please contact us at{" "}
