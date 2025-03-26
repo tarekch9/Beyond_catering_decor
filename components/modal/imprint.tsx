@@ -44,13 +44,7 @@ const ModalCopy3 = () => {
               <strong>Phone Number:</strong> [Your Phone Number]
             </p>
             <p className="mb-4">
-              <strong>Email Address:</strong>{" "}
-              <a
-                href="mailto:Beyondcateringdecor.co.uk"
-                className="text-blue-500 hover:underline"
-              >
-                Beyondcateringdecor.co.uk
-              </a>
+              <strong>Email Address:</strong> <a>Beyondcateringdecor.co.uk</a>
             </p>
             <p className="mb-4">
               <strong>Website:</strong>{" "}
@@ -64,9 +58,7 @@ const ModalCopy3 = () => {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl mb-4">
-              2. Additional Information
-            </h2>
+            <h2 className="text-2xl mb-4">2. Additional Information</h2>
             <p className="mb-4">
               <strong>VAT Identification Number:</strong> [VAT ID, if
               applicable]
@@ -100,9 +92,7 @@ const ModalCopy3 = () => {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl mb-4">
-              4. Liability for Content
-            </h2>
+            <h2 className="text-2xl mb-4">4. Liability for Content</h2>
             <p className="mb-4">
               As a service provider, we are responsible for our own content on
               these pages according to general laws. However, we are not

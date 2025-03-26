@@ -25,7 +25,7 @@ const specialties = [
 
 export default function SpecialtiesGrid() {
   return (
-    <section id="specialised" className="scroll-mt-40 py-20 px-4 bg-[#191a23] text-[#cdab6e] border-t border-[#555555]">
+    <section id="specialised" className="scroll-mt-32 py-20 px-4 bg-[#191a23] text-[#cdab6e] border-t border-[#555555]">
       <div className="container mx-auto">
         <h2 className="text-4xl md:text-5xl font-serif text-center mb-16">We Are Specialised In:</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

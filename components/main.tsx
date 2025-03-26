@@ -53,7 +53,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="westandfor" className="scroll-mt-20 mt-16 px-4 pb-20">
+      <section id="westandfor" className="scroll-mt-36 mt-16 px-4 pb-20">
         <div className="max-w-5xl mx-auto bg-black rounded-3xl p-14">
           <h2 className="text-[#cdab6e] text-base md:text-5xl font-serif text-center mb-10">
             What We Stand For
@@ -89,7 +89,6 @@ export default function Home() {
             Explore Our Exceptional Catering Services Tailored For Every
             Occasion
           </h2>
-
           <div className="grid md:grid-cols-3 gap-14 mt-18">
             {/* Service 1 */}
             <div className="flex flex-col items-center text-center">
@@ -143,9 +142,7 @@ export default function Home() {
                 Our charcuterie boards are perfect for impressing guests at any
                 event.
               </p>
-              <a
-                className="text-[#cdab6e] hover:underline mt-auto text-sm"
-              >
+              <a className="text-[#cdab6e] hover:underline mt-auto text-sm">
                 <Modal2 />
               </a>
             </div>
