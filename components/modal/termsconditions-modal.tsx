@@ -74,7 +74,7 @@ const ModalCopy = () => {
 <section className="mb-8">
   <h2 className="text-2xl mb-4">7. Governing Law</h2>
   <p className="mb-4">
-    These Terms & Conditions shall be governed by and construed in accordance with the laws of [Your Country/State]. Any disputes arising under these terms shall be subject to the exclusive jurisdiction of the courts of [Your Country/State].
+    These Terms & Conditions shall be governed by and construed in accordance with the laws of England and Wales. Any disputes arising under these terms shall be subject to the exclusive jurisdiction of the courts of England and Wales.
   </p>
 </section>
 
@@ -88,7 +88,7 @@ const ModalCopy = () => {
 <section className="mb-8">
   <h2 className="text-2xl mb-4">9. Contact Us</h2>
   <p className="mb-4">
-    If you have any questions about these Terms & Conditions, please contact us at <a href="mailto:terms@example.com" className="text-blue-500 hover:underline">terms@example.com</a>.
+    If you have any questions about these Terms & Conditions, please contact us at <a href="mailto:Beyondcateringdecor.co.uk" className="text-blue-500 hover:underline">Beyondcateringdecor.co.uk</a>.
   </p>
 </section></div>
       </Modal>

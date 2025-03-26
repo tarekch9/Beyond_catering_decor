@@ -93,10 +93,10 @@ const ModalCopy2 = () => {
               If you have any questions about this Privacy Policy, please
               contact us at{" "}
               <a
-                href="mailto:privacy@example.com"
+                href="mailto:Beyondcateringdecor.co.uk"
                 className="text-blue-500 hover:underline"
               >
-                privacy@example.com
+                Beyondcateringdecor.co.uk
               </a>
               .
             </p>

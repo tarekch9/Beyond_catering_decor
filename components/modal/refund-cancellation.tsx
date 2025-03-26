@@ -52,12 +52,12 @@ const ModalCopy4 = () => {
               after delivery.
             </p>
             <p className="mb-4">
-              To request a refund, please contact us at{" "}
+              To request a refund, please contact us at&nbsp;
               <a
-                href="mailto:[Your Email Address]"
+                href="mailto:Beyondcateringdecor.co.uk"
                 className="text-blue-500 hover:underline"
               >
-                [Your Email Address]
+                Beyondcateringdecor.co.uk
               </a>{" "}
               with your order details.
             </p>
@@ -70,10 +70,10 @@ const ModalCopy4 = () => {
               of placing the order. To cancel your order, please contact us as
               soon as possible at{" "}
               <a
-                href="mailto:[Your Email Address]"
+                href="mailto:[Beyondcateringdecor.co.uk]"
                 className="text-blue-500 hover:underline"
               >
-                [Your Email Address]
+                Beyondcateringdecor.co.uk
               </a>
               .
             </p>
@@ -113,10 +113,10 @@ const ModalCopy4 = () => {
               If you have any questions or need assistance regarding our Refund
               and Cancellation Policy, please contact us at{" "}
               <a
-                href="mailto:[Your Email Address]"
+                href="mailto:[Beyondcateringdecor.co.uk]"
                 className="text-blue-500 hover:underline"
               >
-                [Your Email Address]
+                Beyondcateringdecor.co.uk
               </a>
               .
             </p>
