@@ -298,7 +298,7 @@ export default function Home() {
               <h3 className="text-[#cdab6e] text-2xl font-medium mb-4">
                 Catered Events
               </h3>
-              <p className="md:text-s text-[#f2f1f0]/90 font-light">
+              <p className="mb-6 text-[#f2f1f0] font-thin">
                 From conferences to corporate events, private parties to galas,
                 when it matters most, we&apos;re the partner you can trust to
                 get it right.
@@ -313,7 +313,7 @@ export default function Home() {
               <h3 className="text-[#cdab6e] text-2xl font-medium mb-4">
                 Workplace Dining
               </h3>
-              <p className="md:text-s text-[#f2f1f0]/90 font-light">
+              <p className="mb-6 text-[#f2f1f0] font-thin">
                 Give your employees healthy, fresh, and diverse culinary
                 offerings in your workplace with our customized food service
                 programs.
@@ -328,7 +328,7 @@ export default function Home() {
               <h3 className="text-[#cdab6e] text-2xl font-medium mb-4">
                 Delivery
               </h3>
-              <p className="md:text-s text-[#f2f1f0]/90 font-light">
+              <p className="mb-6 text-[#f2f1f0] font-thin">
                 Whether it&apos;s breakfast, lunch, or fruit platters, in the
                 office, or at home, we&apos;re the best route to delicious,
                 quality food.
