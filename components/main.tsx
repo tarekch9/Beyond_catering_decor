@@ -149,7 +149,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="py-20 px-4 bg-[#191a23]">
+      <section className="py-16 px-4 bg-[#191a23]">
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Left side - Image */}
@@ -212,7 +212,7 @@ export default function Home() {
       </section>
       <section
         id="trusted_partner"
-        className="py-36 px-4 bg-[#191a23] text-[#cdab6e]"
+        className="py-16 pb-20 px-4 bg-[#191a23] text-[#cdab6e]"
       >
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
