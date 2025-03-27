@@ -26,15 +26,11 @@ const Home = () => {
             Contact Us
           </h1>
           <p className="font-sans font-extralight text-center">
-            Want to get in touch with us and book us for one of your events?
-            Just write us an E-Mail with the
-            <strong> "Number of Guests"</strong>, <strong> "Location"</strong>,
-            <strong> "Event-Date"</strong>,<strong> "Budget"</strong> and you{" "}
-            <strong> "Food Selection"</strong> and if you want as service type a
-            <strong> "Full Service"</strong> or a{" "}
-            <strong> "Buffet Service"</strong>. Feel also free to send us Photos
-            of the venue, so that we can better prepare your personal, unique
-            Event :)
+            Would you like to get in touch and book us for your event? Just send
+            us an email with the number of guests, location, event date, budget,
+            your food selection, and whether you prefer a full service or buffet
+            service. Feel free to also send us photos of the venue so we can
+            prepare your unique and personalized event even better.
           </p>
           <section className="mb-8">
             <div className="flex flex-wrap gap-3 py-4 place-content-center">

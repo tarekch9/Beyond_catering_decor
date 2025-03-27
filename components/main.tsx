@@ -55,7 +55,7 @@ export default function Home() {
       </section>
       <section id="westandfor" className="scroll-mt-36 mt-16 px-4 pb-20">
         <div className="max-w-5xl mx-auto bg-black rounded-3xl p-14">
-          <h2 className="text-[#cdab6e] text-base text-5xl font-serif text-center mb-10">
+          <h2 className="text-[#cdab6e] text-4xl font-serif text-center mb-10">
             What We Stand For
           </h2>
 
