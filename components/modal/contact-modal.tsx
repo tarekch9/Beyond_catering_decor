@@ -5,11 +5,7 @@ import Modal from "../ui/modal";
 
 const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [step, setStep] = useState(1);
-  const [file, setFile] = useState(null);
 
-  const nextStep = () => setStep((prev) => prev + 1);
-  const prevStep = () => setStep((prev) => Math.max(1, prev - 1));
 
   return (
     <div className="overflow-y-scroll flex flex-col items-center justify-center">

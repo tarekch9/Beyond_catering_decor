@@ -1,12 +1,9 @@
 import Image from "next/image";
-import { ArrowRight, Check } from "lucide-react";
-import hero from "/public/images/hero-banner.jpeg"; // Pfad zum Bild
+import { Check } from "lucide-react";
 import Modal from "@/components/modal/contact-modal";
 import Button from "@/components/modal/contact-modal";
 import { MessageSquare, SmilePlus } from "lucide-react";
 import myImage from "/public/images/board.jpeg"; // Pfad zum Bild
-import ModalCopy from "@/components/modal/privacypolicy-modal";
-import ModalCopy2 from "@/components/modal/termsconditions-modal";
 import Modal2 from "@/components/modal/contact-modal copy";
 
 import SpecialtiesGrid1 from "@/components/specialties-grid-1";
@@ -19,42 +16,42 @@ export default function Home() {
   return (
     <main className="min-h-screen mt-16">
       <section id="home" aria-label="Home Section">
-      <div className="relative min-h-screen md:pb-80 md:pt-80">
-  <div className="absolute inset-0 overflow-hidden">
-    <img
-      className="object-cover w-full h-full"
-      style={{
-        objectPosition: "center center",
-      }}
-      src="/images/hero-banner.jpeg"
-      alt="Hero Banner"
-      loading="lazy"
-    />
-  </div>
-  <div className="relative px-4 py-16 mx-auto max-w-7xl sm:px-6 md:px-8 md:py-20 lg:px-12">
-    <div className="rounded-md mx-auto text-center w-full max-w-md lg:max-w-md xl:max-w-lg lg:text-left lg:mx-0 bg-[#8C6E1C] bg-opacity-80 p-4 lg:p-4 border border-[#cdab6e]">
-      <h1 className="text-2xl text-[#2b2b2a] sm:text-3xl xl:text-4xl xl:leading-tight font-serif">
-        BEYOND CATERING & DECOR
-      </h1>
-      <p className="mt-2 font-sans font-extralight text-sm leading-6 sm:leading-7 text-white">
-        From Conferences to Corporate events, private parties to galas.
-        When it matters most, we're the partner you can trust to get it
-        right.
-      </p>
-      <div className="flex flex-col sm:flex-row gap-3 py-3 justify-center lg:justify-start">
-        <a href="#">
-          <Modal />
-        </a>
-        <a
-          href="#specialised"
-          className="text-sm font-light bg-[#94794a] border border-[#cdab6e] text-white px-6 py-3 rounded-md hover:bg-[#cdab6e] hover:text-black transition-colors duration-300 text-center"
-        >
-          Our Services
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
+        <div className="relative min-h-screen md:pb-80 md:pt-80">
+          <div className="absolute inset-0 overflow-hidden">
+            <img
+              className="object-cover w-full h-full"
+              style={{
+                objectPosition: "center center",
+              }}
+              src="/images/hero-banner.jpeg"
+              alt="Hero Banner"
+              loading="lazy"
+            />
+          </div>
+          <div className="relative px-4 py-16 mx-auto max-w-7xl sm:px-6 md:px-8 md:py-20 lg:px-12">
+            <div className="sm:pt-12 rounded-md mx-auto text-center w-full max-w-md lg:max-w-md xl:max-w-lg lg:text-left lg:mx-0 bg-[#8C6E1C] bg-opacity-80 p-4 lg:p-4 border border-[#cdab6e]">
+              <h1 className="text-2xl text-[#2b2b2a] sm:text-3xl xl:text-4xl xl:leading-tight font-serif">
+                BEYOND CATERING & DECOR
+              </h1>
+              <p className="mt-2 font-sans font-extralight text-sm leading-6 sm:leading-7 text-white">
+                From Conferences to Corporate events, private parties to galas.
+                When it matters most, we&apos;re the partner you can trust to get it
+                right.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3 py-3 justify-center lg:justify-start">
+                <a>
+                  <Modal />
+                </a>
+                <a
+                  href="#specialised"
+                  className="text-sm font-light bg-[#94794a] border border-[#cdab6e] text-white px-6 py-3 rounded-md hover:bg-[#cdab6e] hover:text-black transition-colors duration-300 text-center"
+                >
+                  Our Services
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <section id="westandfor" className="scroll-mt-36 mt-16 px-4 pb-20">
         <div className="max-w-5xl mx-auto bg-black rounded-3xl p-14">
@@ -66,7 +63,7 @@ export default function Home() {
             <p className="text-base md:text-base">
               We believe great food and service are the foundation of our
               successful long-term client partnerships. Providing creative
-              hospitality solutions is born from our mantra to "care more."
+              hospitality solutions is born from our mantra to &quot;care more.&quot;
             </p>
 
             <p className="text-base md:text-base">
@@ -183,7 +180,7 @@ export default function Home() {
                 <li className="flex items-start gap-3">
                   <Check className="mt-1 flex-shrink-0" />
                   <span>
-                    Customized menus to suit every employee's preferences.
+                    Customized menus to suit every employee&apos;s preferences.
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -227,7 +224,7 @@ export default function Home() {
               </h2>
 
               <p className="mb-6 text-[#f2f1f0]/90 font-thin">
-                Whether it's a corporate conference or a private gala, we ensure
+                Whether it&apos;s a corporate conference or a private gala, we ensure
                 every detail is perfect. Count on us to deliver exceptional food
                 and service that leaves a lasting impression.
               </p>

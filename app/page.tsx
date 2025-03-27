@@ -2,8 +2,7 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Main from "@/components/main";
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Privacypolicy from "@/components/privacypolicy"; // Eine weitere Seite (optional)
+
 
 export default function Home() {
   return (

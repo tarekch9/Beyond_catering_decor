@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import ModalCopy2 from "@/components/modal/privacypolicy-modal";
 import ModalCopy from "@/components/modal/termsconditions-modal";
 import ModalCopy3 from "@/components/modal/imprint";

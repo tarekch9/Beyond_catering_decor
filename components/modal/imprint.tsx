@@ -1,19 +1,10 @@
 "use client";
 
-import Image from "next/image";
 import { useState } from "react";
 import Modal from "../ui/modal";
-import { useForm } from "react-hook-form";
 
 const ModalCopy3 = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [step, setStep] = useState(1); // Aktueller Schritt
-
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
 
   return (
     <div className="overflow-y-scroll flex flex-col items-center justify-center">

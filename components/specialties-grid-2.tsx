@@ -1,27 +1,6 @@
 import Image from "next/image"
-import breakfast from '/images/breakfastbasket.jpeg'; // Pfad zum Bild
 
-const specialties = [
-  {
-    title: "Breakfast Buffet",
-    image: "/images/breakfast.jpeg",
-    description:
-      "Our breakfast buffet features a diverse selection of fresh, high-quality dishes, from warm pastries to hearty hot meals. We cater to all tastes, ensuring a delicious and satisfying start to the day for every guest.",
-  },
-  {
-    title: "Breakfast Basket",
-    image: "/images/breakfastbasket.jpeg",
-    description:
-      "Our breakfast boards & baskets are beautifully curated with fresh, high-quality ingredients, perfect for any occasion. Featuring artisanal bread, pastries, cheeses, fruits, and more, they offer a delightful and convenient way to enjoy a gourmet breakfast.",
-  },
-  {
-    title: "Canapés",
-    image: "/images/canapes.jpeg",
-    description:
-      "Our canapés are elegant, bite-sized delights, perfect for any event. Crafted with fresh, high-quality ingredients, they offer a mix of flavors and textures, from classic to creative, ensuring a sophisticated and delicious experience for your guests.",
-  },
 
-]
 
 export default function SpecialtiesGrid() {
   return (

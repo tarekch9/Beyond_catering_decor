@@ -8,6 +8,7 @@ import Modal2 from "@/components/modal/contact-modal copy";
 
 export default function Header() {
   const [isVisible, setIsVisible] = useState(true);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [isContactVisible, setIsContactVisible] = useState(true);
 
   useEffect(() => {

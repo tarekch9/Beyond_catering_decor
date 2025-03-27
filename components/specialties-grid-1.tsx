@@ -1,5 +1,4 @@
 import Image from "next/image"
-import breakfast from '/images/breakfastbasket.jpeg'; // Pfad zum Bild
 
 const specialties = [
   {
