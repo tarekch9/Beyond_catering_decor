@@ -19,16 +19,19 @@ export default function Home() {
   return (
     <main className="min-h-screen mt-16">
       <section id="home" aria-label="Home Section">
-        <div className="relative pb-80 pt-52 bg-gray-900">
-          <div className="absolute inset-0 lg:block">
+        <div className="relative pb-80 pt-80">
+          <div className="absolute inset-0 overflow-hidden">
             <img
-              className="object-cover object-right-bottom w-full h-full"
+              className="object-cover w-full h-full"
+              style={{
+                objectPosition: "center center",
+              }} /* Fokus auf die Mitte */
               src="/images/hero-banner.jpeg"
               alt="Hero Banner"
               loading="lazy"
             />
           </div>
-          <div className="relative mb-50 px-8 mx-auto sm:px-8 lg:px-8 max-w-7xl">
+          <div className="relative mb-50 px-32 py-20 mx-auto max-w-7xl">
             <div className="rounded-md mx-auto text-center lg:max-w-md xl:max-w-lg lg:text-left lg:mx-0 bg-[#8C6E1C] bg-opacity-80 p-4 lg:p-4 border border-[#cdab6e]">
               <h1 className="text-3xl text-[#2b2b2a] sm:text-4xl xl:text-4xl xl:leading-tight font-serif">
                 BEYOND CATERING & DECOR
