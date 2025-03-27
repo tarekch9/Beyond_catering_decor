@@ -19,42 +19,42 @@ export default function Home() {
   return (
     <main className="min-h-screen mt-16">
       <section id="home" aria-label="Home Section">
-        <div className="relative pb-80 pt-80">
-          <div className="absolute inset-0 overflow-hidden">
-            <img
-              className="object-cover w-full h-full"
-              style={{
-                objectPosition: "center center",
-              }} /* Fokus auf die Mitte */
-              src="/images/hero-banner.jpeg"
-              alt="Hero Banner"
-              loading="lazy"
-            />
-          </div>
-          <div className="relative mb-50 px-32 py-20 mx-auto max-w-7xl">
-            <div className="rounded-md mx-auto text-center lg:max-w-md xl:max-w-lg lg:text-left lg:mx-0 bg-[#8C6E1C] bg-opacity-80 p-4 lg:p-4 border border-[#cdab6e]">
-              <h1 className="text-3xl text-[#2b2b2a] sm:text-4xl xl:text-4xl xl:leading-tight font-serif">
-                BEYOND CATERING & DECOR
-              </h1>
-              <p className="mt-2 font-sans font-extralight text-sm leading-7 text-white lg:max-w-md xl:pr-0 lg:pr-16">
-                From Conferences to Corporate events, private parties to galas.
-                When it matters most, we're the partner you can trust to get it
-                right.
-              </p>
-              <div className="flex flex-wrap gap-3 py-3">
-                <a href="#">
-                  <Modal />
-                </a>
-                <a
-                  href="#specialised"
-                  className="text-sm font-light bg-[#94794a] border border-[#cdab6e] text-white px-6 py-3 rounded-md hover:bg-[#cdab6e] hover:text-black transition-colors duration-300"
-                >
-                  Our Services
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div className="relative min-h-screen md:pb-80 md:pt-80">
+  <div className="absolute inset-0 overflow-hidden">
+    <img
+      className="object-cover w-full h-full"
+      style={{
+        objectPosition: "center center",
+      }}
+      src="/images/hero-banner.jpeg"
+      alt="Hero Banner"
+      loading="lazy"
+    />
+  </div>
+  <div className="relative px-4 py-16 mx-auto max-w-7xl sm:px-6 md:px-8 md:py-20 lg:px-12">
+    <div className="rounded-md mx-auto text-center w-full max-w-md lg:max-w-md xl:max-w-lg lg:text-left lg:mx-0 bg-[#8C6E1C] bg-opacity-80 p-4 lg:p-4 border border-[#cdab6e]">
+      <h1 className="text-2xl text-[#2b2b2a] sm:text-3xl xl:text-4xl xl:leading-tight font-serif">
+        BEYOND CATERING & DECOR
+      </h1>
+      <p className="mt-2 font-sans font-extralight text-sm leading-6 sm:leading-7 text-white">
+        From Conferences to Corporate events, private parties to galas.
+        When it matters most, we're the partner you can trust to get it
+        right.
+      </p>
+      <div className="flex flex-col sm:flex-row gap-3 py-3 justify-center lg:justify-start">
+        <a href="#">
+          <Modal />
+        </a>
+        <a
+          href="#specialised"
+          className="text-sm font-light bg-[#94794a] border border-[#cdab6e] text-white px-6 py-3 rounded-md hover:bg-[#cdab6e] hover:text-black transition-colors duration-300 text-center"
+        >
+          Our Services
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
       </section>
       <section id="westandfor" className="scroll-mt-36 mt-16 px-4 pb-20">
         <div className="max-w-5xl mx-auto bg-black rounded-3xl p-14">
