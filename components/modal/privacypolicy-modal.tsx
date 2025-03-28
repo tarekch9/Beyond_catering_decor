@@ -6,7 +6,6 @@ import Modal from "../ui/modal";
 const ModalCopy2 = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-
   return (
     <div className="overflow-y-scroll flex flex-col items-center justify-center">
       <button
@@ -38,7 +37,7 @@ const ModalCopy2 = () => {
             <h2 className="text-2xl bold mb-4">2. Data Collection</h2>
             <p className="mb-4">
               We collect personal data that you voluntarily provide to us, for
-              example, when you fill out a form or register for an account.
+              example, when you fill out a form or get in touch with us.
             </p>
             <p className="mb-4">
               The types of data we collect may include your name, email address,

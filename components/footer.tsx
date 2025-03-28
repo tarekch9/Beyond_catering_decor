@@ -3,6 +3,7 @@ import ModalCopy2 from "@/components/modal/privacypolicy-modal";
 import ModalCopy from "@/components/modal/termsconditions-modal";
 import ModalCopy3 from "@/components/modal/imprint";
 import ModalCopy4 from "@/components/modal/refund-cancellation"
+import ModalCopy5 from "./modal/food-hygiene&safety-compliance";
 
 export default function Home() {
   return (
@@ -20,8 +21,8 @@ export default function Home() {
               />
             </div>
           </div>
-          <nav className="flex-1 flex justify-center md:justify-end text-[#f2f1f0] font-thin">
-            <ul className="flex flex-wrap gap-4 md:gap-6 text-white">
+          <nav className="flex-1 flex justify-end text-[#f2f1f0] font-thin">
+            <ul className="flex flex-wrap justify-end gap-4 md:gap-6 text-white">
               <li>
                 <ModalCopy3 />
               </li>
@@ -33,6 +34,9 @@ export default function Home() {
               </li>
               <li>
                 <ModalCopy4 />
+              </li>
+              <li>
+                <ModalCopy5 />
               </li>
             </ul>
           </nav>
