@@ -2,7 +2,7 @@ import Image from "next/image";
 import ModalCopy2 from "@/components/modal/privacypolicy-modal";
 import ModalCopy from "@/components/modal/termsconditions-modal";
 import ModalCopy3 from "@/components/modal/imprint";
-import ModalCopy4 from "@/components/modal/refund-cancellation"
+import ModalCopy4 from "@/components/modal/refund-cancellation";
 import ModalCopy5 from "./modal/food-hygiene&safety-compliance";
 
 export default function Home() {
@@ -21,24 +21,20 @@ export default function Home() {
               />
             </div>
           </div>
-          <nav className="flex-1 flex justify-end text-[#f2f1f0] font-thin">
-            <ul className="flex flex-wrap justify-end gap-4 md:gap-6 text-white">
-              <li>
-                <ModalCopy3 />
-              </li>
-              <li>
-                <ModalCopy2 />
-              </li>
-              <li>
-                <ModalCopy />
-              </li>
-              <li>
-                <ModalCopy4 />
-              </li>
-              <li>
-                <ModalCopy5 />
-              </li>
-            </ul>
+          <nav className="flex-1 flex flex-col items-end text-[#f2f1f0] font-thin">
+            <div className="flex gap-4 md:gap-6 mb-2">
+              {" "}
+              {/* Erste Zeile */}
+              <ModalCopy3 />
+              <ModalCopy2 />
+              <ModalCopy />
+            </div>
+            <div className="flex gap-4 md:gap-6">
+              {" "}
+              {/* Zweite Zeile */}
+              <ModalCopy4 />
+              <ModalCopy5 />
+            </div>
           </nav>
         </div>
       </footer>
