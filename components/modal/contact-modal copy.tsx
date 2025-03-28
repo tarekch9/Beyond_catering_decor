@@ -22,12 +22,13 @@ const Home = () => {
           </h1>
           <p className="font-sans font-extralight text-center">
             Would you like to get in touch and book us for your event? Just send
-            us an email with the number of guests, location, event date, budget,
-            your food selection, and whether you prefer a full service or buffet
-            service. Please also let us know about any allergies or dietary
-            restrictions related to certain ingredients so we can accommodate
-            your needs. Feel free to also send us photos of the venue so we can
-            prepare your unique and personalized event even better.
+            us an email with the <b>number of guests</b>, <b>location</b>,{" "}
+            <b>event date</b>, <b>budget</b>, your <b>food selection</b>, and
+            whether you prefer a <b>full service</b> or <b>buffet service</b>.
+            Please also let us know about any allergies or dietary restrictions
+            related to certain ingredients so we can accommodate your needs.
+            Feel free to also send us photos of the venue so we can prepare your
+            unique and personalized event even better.
           </p>
           <section className="mb-8">
             <div className="flex flex-wrap gap-3 py-4 place-content-center">
