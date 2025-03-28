@@ -27,10 +27,10 @@ const ModalCopy5 = () => {
             <h1 className="text-3xl mb-6">Food Hygiene & Safety Compliance</h1>
 
             <p className="mb-4">
-              At Beyond Catering & Decor, we take food hygiene and safety
-              seriously. Our commitment to maintaining the highest standards
-              ensures that every dish we prepare is not only delicious but also
-              safe for consumption.
+              We Beyond Catering & Decor, take hygiene very seriously. Our
+              commitment to maintaining the highest standards ensures that every
+              dish we prepare is not only delicious but also safe for
+              consumption.
             </p>
 
             <h2 className="text-2xl mb-4">Our Commitment to Safety</h2>
