@@ -39,7 +39,7 @@ const Home = () => {
           <section className="mb-8">
             <div className="flex flex-wrap gap-3 py-4 place-content-center">
               <a
-                href="mailto:Beyondcateringdecor.co.uk"
+                href="mailto:info@beyondcateringdecor.co.uk"
                 className="text-sm font-light bg-black border border-[#cdab6e] text-white px-6 py-3 rounded-md hover:bg-[#cdab6e] hover:text-black transition-colors duration-300"
               >
                 E-Mail

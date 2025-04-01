@@ -43,10 +43,13 @@ export default function Header() {
               +44 7903 618868
             </a>
             <a
-              href="mailto:Beyondcateringdecor.co.uk"
+              href="mailto:
+Window control
+About Get support
+info@beyondcateringdecor.co.uk"
               className="hover-line transition-colors"
             >
-              @Beyondcateringdecor.co.uk
+              info@beyondcateringdecor.co.uk
             </a>
           </div>
         </div>

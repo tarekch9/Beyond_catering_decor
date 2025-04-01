@@ -57,10 +57,10 @@ const ModalCopy4 = () => {
               If you have any questions or need assistance regarding our Refund
               and Cancellation Policy, please contact us at
               <a
-                href="mailto:[Beyondcateringdecor.co.uk]"
+                href="mailto:[info@beyondcateringdecor.co.uk]"
                 className="text-blue-500 hover:underline"
               >
-                Beyondcateringdecor.co.uk
+                &nbsp;info@beyondcateringdecor.co.uk
               </a>
               .
             </p>

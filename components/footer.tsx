@@ -21,17 +21,11 @@ export default function Home() {
               />
             </div>
           </div>
-          <nav className="flex-1 flex flex-col items-end text-[#f2f1f0] font-thin">
-            <div className="flex gap-4 md:gap-6 mb-2">
-              {" "}
-              {/* Erste Zeile */}
+          <nav className="flex-1 flex flex-col items-center md:items-end text-[#f2f1f0] font-thin">
+            <div className="flex flex-wrap justify-center gap-4 md:gap-6 md:justify-end">
               <ModalCopy3 />
               <ModalCopy2 />
               <ModalCopy />
-            </div>
-            <div className="flex gap-4 md:gap-6">
-              {" "}
-              {/* Zweite Zeile */}
               <ModalCopy4 />
               <ModalCopy5 />
             </div>

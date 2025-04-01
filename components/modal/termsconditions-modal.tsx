@@ -109,7 +109,7 @@ const ModalCopy = () => {
               If you have any questions about these Terms & Conditions, please
               contact us at{" "}
               <a>
-                <strong>Beyondcateringdecor.co.uk</strong>
+                <strong>info@beyondcateringdecor.co.uk</strong>
               </a>
               .
             </p>

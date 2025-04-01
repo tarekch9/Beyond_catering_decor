@@ -90,7 +90,7 @@ const ModalCopy2 = () => {
               If you have any questions about this Privacy Policy, please
               contact us at{" "}
               <a>
-                <strong>Beyondcateringdecor.co.uk</strong>
+                <strong>info@beyondcateringdecor.co.uk</strong>
               </a>
               .
             </p>
